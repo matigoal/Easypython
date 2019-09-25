@@ -1,0 +1,9 @@
+moyenne = int(input("Entrez votre note :"))
+ 
+if moyenne < 10:
+    print("encore du travail")
+elif moyenne > 17:
+    print("excellent tu es proche de l'excellence")
+else:
+    print("tu es dans la moyenne choisi ton camp")
+ 
