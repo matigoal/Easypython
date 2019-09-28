@@ -1,0 +1,11 @@
+#appel module calendrier
+import calendar  
+#Enter the month and year  
+year = int(input("Enter year: "))  
+month = int(input("Enter month: ")) 
+day = int(input("Enter day: "))  
+  
+# display the calendar  
+print(calendar.month(year,month,day)) 
+
+calendar.leapdays(1991, 2019)
